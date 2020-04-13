@@ -14,7 +14,8 @@ The output is :
 ## Requirements
 This small API is developped using the [Symfony](https://symfony.com/4) framework.
 So, to use this project locally, you must have these packages installed on your computer :
-* Symfony >= 4,
+* PHP v >= 7.2
+* Symfony v >= 4,
 * Composer,
 * A web server.
 
