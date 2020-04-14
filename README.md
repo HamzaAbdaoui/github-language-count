@@ -8,7 +8,40 @@ This route fetches the github API https://api.github.com/search/repositories to 
 The output is :
 
 ```json
----
+{
+"TypeScript": {
+        "count": 9,
+        "repos": [
+            "facebookexperimental/rome",
+            "benawad/destiny",
+            "phuoc-ng/html-dom",
+            "neherlab/covid19_scenarios",
+            "anye931123/react-visual-editor",
+            "blitz-js/blitz",
+            "mathdroid/covid-19-api",
+            "vsls-contrib/codetour",
+            "afteracademy/nodejs-backend-architecture-typescript"
+        ]
+    },
+    "JavaScript": {
+        "count": 13,
+        "repos": [
+            "2019ncovmemory/nCovMemory",
+            "jasonmayes/Real-Time-Person-Removal",
+            "covid19india/covid19india-react",
+            "NovelCOVID/API",
+            "JAVClub/core",
+            "AmruthPillai/Reactive-Resume",
+            "ahmadawais/corona-cli",
+            "someshkar/covid19india-cluster",
+            "soroushchehresa/awesome-coronavirus",
+            "subnub/myDrive",
+            "sagarkarira/coronavirus-tracker-cli",
+            "pomber/covid19",
+            "alyssaxuu/animockup"
+        ]
+    }
+}
 ```
 
 ## Requirements
