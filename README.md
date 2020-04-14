@@ -3,13 +3,14 @@ A simple REST API created to list the languages used by the 100 trending public 
 
 ## Description
 This project is a small REST API with a single route ```GET /languages```.
+
 This route fetches the github API https://api.github.com/search/repositories to get the first trending 100 Github repositories. And after that, it counts the languages used by those repositories.
 
 The output is :
 
 ```json
 {
-"TypeScript": {
+    "TypeScript": {
         "count": 9,
         "repos": [
             "facebookexperimental/rome",
